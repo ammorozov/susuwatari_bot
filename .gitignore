@@ -1,0 +1,93 @@
+# .gitignore for Python Telegram Bot Project
+
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.env/
+env/
+virtualenv/
+venv*/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Environment files
+.env
+.secrets
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage files
+.coverage
+.tox/
+htmlcov/
+.pytest_cache/
+mypy_cache/
+.coverage.*
+coverage.xml
+
+# Build and distribution
+build/
+dist/
+*.dist-info
+*.egg-info/
+*.tar.gz
+*.whl
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter notebooks
+*.ipynb
+*.ipynb_checkpoints/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Custom ignores (add your own below)
+# config.py
+# tokens.json
+# sensitive_data/
